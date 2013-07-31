@@ -50,7 +50,8 @@ gem 'devise'
 group :development, :test do
 	gem 'minitest-rails'
 	gem 'miniskirt'
-	gem 'faker'
 	gem 'capybara'
-	gem 'guard-rspec'
+	gem 'minitest-rails-capybara'
+	gem 'faker'
+	gem 'guard-minitest'
 end

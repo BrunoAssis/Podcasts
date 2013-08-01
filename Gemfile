@@ -54,4 +54,5 @@ group :development, :test do
 	gem 'minitest-rails-capybara'
 	gem 'faker'
 	gem 'guard-minitest'
+	gem 'terminal-notifier-guard'
 end
